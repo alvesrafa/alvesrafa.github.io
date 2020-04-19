@@ -1,17 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 html, body, #home {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  font-family: 'Open Sans', sans-serif;
   height: 100vh;
+  color: #333;
+  background-color: #fafbfc;
 }
 
 body {
-  background: linear-gradient(180deg, rgba(36,41,46,0.2) 33%, rgba(3,102,214,0.6839110644257703) 100%);
-
   background-attachment: fixed;
 }
-nav.nav-transparent {
+/* nav.nav-transparent {
   background: rgba(0,0,0,0.6);
 }
 .navbar-nav .nav-link {
@@ -23,31 +24,173 @@ nav.nav-transparent {
 .navbar-toggler {
   color: rgba(255,255,255,.5);
   border-color: rgba(255,255,255,0.1);
-}
+} */
+/* HOME */
 #home {
+  background-color: #444;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+#home .apresentacao h1, h2, h3, p, a, hr {
+  margin: 0;
+}
+#home .apresentacao h1, h2, h3 {
+  color: #DDD;
+}
+#home .apresentacao hr {
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+#home .apresentacao h2 {
+  font-size: 18px;
+}
+#home .apresentacao p {
+  color: #bbb;
+  margin-bottom: 4px;
+}
+#home .links {
+  width: 100%;
+  display: flex;
+  margin: 10px 0;
+}
+#home .links a {
+  color: #DDD;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50%;
+  border: 2px solid #DDD;
+  margin-right: 1vw;
+  transition: all 0.5s;
+}
+#home .links a:hover {
+  text-decoration: none;
+  background-color: #DDD;
+  color: #444;
+  border: 2px solid #333;
+}
 #home .content-home {
-  width: 35%;
+  width: 35vw;
   display: flex;
   align-items: center;
 }
+
 #home .content-ul ul{
+  padding: 0;
   list-style-type: none;
   display: flex;
-  padding-inline-start: 0;
+  
 }
 #home .content-ul ul li {
   margin: 20px;
 }
-section {
-  margin: 10px auto;
+#home .content-ul ul li a {
+  color: #DDD;
+  font-size: 17px;
+}
+#home .content-ul ul li a:hover {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+
 }
 .foto-perfil img{
   width: 132px;
   border-radius: 50%;
   margin-right: 17px;
+  border: 3px solid #CCC;
+}
+section {
+  margin: 10px auto;
+}
+
+/* ABOUT */
+#about {
+  height: 100vh;
+}
+#about .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#about .container .timeline {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.direita {
+  width: 48%;
+  align-self: flex-end;
+  text-align: left;
+  margin-top: 3vh;
+}
+.esquerda {
+  margin-top: 3vh;
+  align-self: flex-start;
+  width: 48%;
+  text-align: right;
+}
+/* SKILLS */
+#skills {
+  color: #333;
+}
+#skills h1 {
+  width: 100%;
+}
+#skills {
+  padding: 5vh 20vw;
+  width: 100%;
+  background-color: black;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+}
+#skills .card {
+  width: 30%;
+
+}
+#skills .card .card-body {
+  text-align: center;
+}
+#skills .card .card-body ul {
+  padding: 0;
+  list-style-type: none;
+}
+#skills .card .card-body .icon {
+  font-size: 56px;
+}
+#skills .card .card-header {
+  background-color: #FFF;
+  border-bottom: none;
+  text-align: center;
+}
+#skills .card .card-header h2 {
+  color: #333;
+}
+/* PROJECTS */
+#projects {
+  /* height: 100vh; */
+  padding: 5vh 20vw;
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#projects h1 {
+  width: 100%;
+}
+#projects .card {
+  width: 31%;
+  margin: 20px auto;
+}
+#projects .card .card-header h2  {
+  color: #222;
 }

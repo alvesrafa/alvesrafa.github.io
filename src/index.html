@@ -2,8 +2,11 @@
 <html lang="pt-BR">
 <head>
   <title>Rafael Alves</title>
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
   <body>
@@ -40,86 +43,230 @@
           </div>
           
           <div class="apresentacao">
-            <h2>Olá, obrigado por me visitar!</h2>
+            <h3>Olá, obrigado por me visitar!</h3>
+            <hr>
             <h1>Rafael Alves</h1>
-            <p>Desenvovledor Web</p>
+            <h2>Desenvovledor Web</h2>
             <p>20 anos</p>
             <p>
-              Formado em Análise e Desenvolvimento de Sistemas - Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP), 2019.
+              Formado em Análise e Desenvolvimento de Sistemas - IFSP, 2019.
             </p>
-            <a href="mailto:alvesrafael17@hotmail.com">Email</a>
-            <a target="_blank" href="https://github.com/alvesrafa">GitHub</a>
-            <a target="_blank" href="https://www.linkedin.com/in/alvRafael/">LinkedIn</a>
-            <p>Ilhabela – São Paulo – Brasil</p>
+            <p><i class="fas fa-map-marker-alt"></i> Ilhabela – São Paulo – Brasil</p>
+            <div class="links">
+              <a href="mailto:alvesrafael17@hotmail.com">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a target="_blank" href="https://github.com/alvesrafa">
+                <i class="fab fa-github"></i>
+              </a>
+              <a target="_blank" href="https://www.linkedin.com/in/alvRafael/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            
           </div>
 
         </div>
         <div class="content-ul">
           <ul>
             <li>
-              <a href="">Link 1</a>
+              <a href="#about">Sobre</a>
             </li>
             <li>
-              <a href="">Link 2</a>
+              <a href="#skills">Habilidades</a>
             </li>
             <li>
-              <a href="">Link 3</a>
+              <a href="#projects">Projetos</a>
             </li>
           </ul>
         </div>
       </div>
 
     </section>
+
     <section id="about">
-      <h1>Sobre</h1>
+      
       <div class="container">
-        <p>
-          Conheci o mundo do desenvolvimento em 2017 quanto entrei na faculdade de Analise e Desenvolvimento de Sistemas no Instituto Federal de São Paulo - Campus de Caraguatatuba. A partir daí, não consigo mais parar de 'codar'!
-        </p>
-        <p>Gosto de desafios pois acredito que assim, consigo ir em busca de novos conceitos para agregar meus conhecimentos.</p>
-        <p>
-          Atualmente venho priorizando grande parte do meu tempo estudando JavaScript e suas fronteiras para aprimorar minhas habilidades com NodeJS (back-end), ReactJS (Web) e React Native (Mobile) pois me impressionei com todas as possibilidades que essa stack trás.
-        </p>
-        <p>
-          Sou uma pessoa proativa, criativa, gosto de aprender novos conteúdos e de solucionar desafios propostos buscando sempre o melhor desempenho.
-          Não possuo prática profissional em grandes empresas mas já realizei diversos projetos durante o curso e dou o meu melhor com o intuito de ajudar a equipe da melhor forma possível.
-        </p>
-        <p>
-          Pretendo me aprofundar em qualquer desafio proposto, procurando sempre agregar meus conhecimentos e solucionar ao máximo os problemas junto a equipe em busca do melhor resultado para a empresa.
-        </p>
+        <h1>Sobre</h1>
+        <div class="timeline">
+          <div class="esquerda">
+            <p>
+              Conheci o mundo do desenvolvimento em 2017 quanto entrei na faculdade de Analise e Desenvolvimento de Sistemas no Instituto Federal de São Paulo - Campus de Caraguatatuba. A partir daí, não consigo mais parar de 'codar'!
+            </p>
+          </div>
+          <div class="direita">
+            <p>Gosto de desafios pois acredito que assim, consigo ir em busca de novos conceitos para agregar meus conhecimentos.</p>
+          </div>
+          <div class="esquerda">
+            <p>
+              Atualmente venho priorizando grande parte do meu tempo estudando JavaScript e suas fronteiras para aprimorar minhas habilidades com NodeJS (back-end), ReactJS (Web) e React Native (Mobile) pois me impressionei com todas as possibilidades que essa stack trás.
+            </p>
+          </div>
+          <div class="direita">
+            <p>
+              Sou uma pessoa proativa, criativa, gosto de aprender novos conteúdos e de solucionar desafios propostos buscando sempre o melhor desempenho.
+              Não possuo prática profissional em grandes empresas mas já realizei diversos projetos durante o curso e dou o meu melhor com o intuito de ajudar a equipe da melhor forma possível.
+            </p>
+          </div>
+          <div class="esquerda">
+            <p>
+              Pretendo me aprofundar em qualquer desafio proposto, procurando sempre agregar meus conhecimentos e solucionar ao máximo os problemas junto a equipe em busca do melhor resultado para a empresa.
+            </p>
+          </div>
+        </div>
       </div>
       
 
     </section>
     <section id="skills">
-      <h1>Habilidades/Conhecimentos</h1>
-      <div class="container">
-        <div>
-          <h2>Frontend</h2>
-          ReactJS
-          React Native
-          HTML5 
-          CSS3
-          Bootstrap
-          Materialize 
-          JQuery
+        <h1>Habilidades/Conhecimentos</h1>
+        <div class="card">
+          <div class="card-header">
+            <h2>Frontend</h2>
+          </div>
+          <div class="card-body">
+            <div class="icon">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <ul>
+              <li>ReactJS</li>
+              <li>React Native</li>
+              <li></li>
+              <li>HTML5 e CSS3</li>
+              <li>Bootstrap e Materialize</li>
+              <li>JQuery</li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <h2>Backend</h2>
-          NodeJS
-          Desenvolvimento PHP com Laravel
-          Banco de Dados SQL
+        <div class="card">
+          <div class="card-header">
+            <h2>Backend</h2>
+          </div>
+          <div class="card-body">
+            <div class="icon">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <ul>
+              <li>NodeJS</li>
+              <li>Desenvolvimento PHP com Laravel</li>
+              <li>Banco de Dados SQL</li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <h2>Outros</h2>
-          Git + Github
-          Metodologia de desenvolvimento (Scrum, XP)
-          Sistemas Windows
+        <div class="card">
+          <div class="card-header">
+            <h2>Outros</h2>
+          </div>
+          <div class="card-body">
+            <div class="icon">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <ul>
+              <li>Git + Github</li>
+              <li>Metodologia de desenvolvimento (Scrum, XP)</li>
+              <li>Sistemas Windows</li>
+            </ul>
+          </div>
         </div>
-      </div>
     </section>
     <section id="projects">
-      <h1>Projetos</h1>
+      <h1>Projetos desenvolvidos</h1>
+      <div class="card">
+        <div class="card-header">
+          <h2>Frontend</h2>
+        </div>
+        <div class="card-body">
+          <div class="descricao">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iste necessitatibus aliquam est reprehenderit, dolore expedita sapiente iure repellat commodi tempora sed cumque exercitationem. Animi architecto quo aperiam accusantium velit?
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="links">
+            <a href="">link</a>
+            <a href="">link</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h2>Frontend</h2>
+        </div>
+        <div class="card-body">
+          <div class="descricao">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iste necessitatibus aliquam est reprehenderit, dolore expedita sapiente iure repellat commodi tempora sed cumque exercitationem. Animi architecto quo aperiam accusantium velit?
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="links">
+            <a href="">link</a>
+            <a href="">link</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h2>Frontend</h2>
+        </div>
+        <div class="card-body">
+          <div class="descricao">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iste necessitatibus aliquam est reprehenderit, dolore expedita sapiente iure repellat commodi tempora sed cumque exercitationem. Animi architecto quo aperiam accusantium velit?
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="links">
+            <a href="">link</a>
+            <a href="">link</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h2>Frontend</h2>
+        </div>
+        <div class="card-body">
+          <div class="descricao">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iste necessitatibus aliquam est reprehenderit, dolore expedita sapiente iure repellat commodi tempora sed cumque exercitationem. Animi architecto quo aperiam accusantium velit?
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="links">
+            <a href="">link</a>
+            <a href="">link</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h2>Frontend</h2>
+        </div>
+        <div class="card-body">
+          <div class="descricao">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iste necessitatibus aliquam est reprehenderit, dolore expedita sapiente iure repellat commodi tempora sed cumque exercitationem. Animi architecto quo aperiam accusantium velit?
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="links">
+            <a href="">link</a>
+            <a href="">link</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h2>Frontend</h2>
+        </div>
+        <div class="card-body">
+          <div class="descricao">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iste necessitatibus aliquam est reprehenderit, dolore expedita sapiente iure repellat commodi tempora sed cumque exercitationem. Animi architecto quo aperiam accusantium velit?
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="links">
+            <a href="">link</a>
+            <a href="">link</a>
+          </div>
+        </div>
+      </div>
     </section>
     
     
