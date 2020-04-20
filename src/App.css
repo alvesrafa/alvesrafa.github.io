@@ -12,19 +12,6 @@ html, body, #home {
 body {
   background-attachment: fixed;
 }
-/* nav.nav-transparent {
-  background: rgba(0,0,0,0.6);
-}
-.navbar-nav .nav-link {
-  color: #FFF;
-}
-.navbar-nav .nav-link:hover {
-  color: #DDD;
-}
-.navbar-toggler {
-  color: rgba(255,255,255,.5);
-  border-color: rgba(255,255,255,0.1);
-} */
 /* HOME */
 #home {
   background-color: #444;
@@ -215,5 +202,9 @@ section {
 }
 #projects .card .card-footer .links a {
   font-size: 22px;
-  
+  color: #444;
+  transition: all 0.4s;
+}
+#projects .card .card-footer .links a:hover {
+  color: #111;
 }
