@@ -191,6 +191,29 @@ section {
   width: 31%;
   margin: 20px auto;
 }
+#projects .card .card-header {
+  background-color: #FFF;
+  border-bottom: 0;
+}
 #projects .card .card-header h2  {
+  font-size: 22px;;
   color: #222;
+}
+#projects .card .card-header h4  {
+  font-size: 16px;
+  color: #555;
+}
+#projects .card .card-body {
+  padding-top: 0;
+}
+#projects .card .card-footer {
+  background-color: #FFF;
+}
+#projects .card .card-footer .links {
+  display:flex;
+  justify-content: space-between;
+}
+#projects .card .card-footer .links a {
+  font-size: 22px;
+  
 }
