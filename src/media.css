@@ -1,3 +1,8 @@
+@media (max-width: 1366px) {
+  #about{
+    height: auto;
+  }
+}
 @media (max-width: 1200px) {
   #home .content-home {
     width: 50vw;
@@ -5,12 +10,19 @@
   #home .apresentacao h3 {
     font-size: 15px;
   }
-  #about{
-    height: auto;
-  }
+  
   #skills .card {
     width: 45%;
     margin: 5px;
+  }
+  #about .container .timeline {
+    width: 100%;
+  }
+  .direita {
+    width: 50%;
+  }
+  .esquerda {
+    width: 50%;
   }
 }
 @media (max-width: 992px) {
