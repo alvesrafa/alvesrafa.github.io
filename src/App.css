@@ -94,8 +94,13 @@ section {
 }
 
 /* ABOUT */
+#about h1 {
+  font-size: 22px;
+  margin: 0;
+}
 #about {
   height: 100vh;
+  margin-bottom: 20px;
 }
 #about .container {
   display: flex;
@@ -113,10 +118,8 @@ section {
   width: 48%;
   align-self: flex-end;
   text-align: left;
-  margin-top: 3vh;
 }
 .esquerda {
-  margin-top: 3vh;
   align-self: flex-start;
   width: 48%;
   text-align: right;
@@ -175,7 +178,7 @@ section {
   width: 100%;
 }
 #projects .card {
-  width: 31%;
+  width: 45%;
   margin: 20px auto;
 }
 #projects .card .card-header {
@@ -198,12 +201,17 @@ section {
 }
 #projects .card .card-footer .links {
   display:flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: center;
 }
 #projects .card .card-footer .links a {
-  font-size: 22px;
+  font-size: 16px;
+  line-height: 25px;
   color: #444;
   transition: all 0.4s;
+}
+#projects .card .card-footer .links a i {
+  font-size: 25px;
 }
 #projects .card .card-footer .links a:hover {
   color: #111;

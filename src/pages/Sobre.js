@@ -5,7 +5,6 @@ export default function Sobre() {
     <section id="about">
       
       <div class="container">
-        <h1>Sobre</h1>
         <div class="timeline">
           <div class="esquerda">
             <p>

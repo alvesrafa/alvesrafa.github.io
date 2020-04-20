@@ -3,7 +3,7 @@ import React from 'react';
 export default function Skills() {
   return (
     <section id="skills">
-        <h1>Habilidades/Conhecimentos</h1>
+        <h1>Conhecimentos</h1>
         <div class="card">
           <div class="card-header">
             <h2>Frontend</h2>

@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Projetos() {
   return (
     <section id="projects">
       <h1>Projetos desenvolvidos</h1>
+
       <div class="card">
         <div class="card-header">
           <h2>View Hub</h2>
@@ -16,10 +18,7 @@ export default function Projetos() {
         </div>
         <div class="card-footer">
           <div class="links">
-            <a target="_blank" href="https://github.com/alvesrafa">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="" alt="Ver mais"><i class="fas fa-arrow-circle-right"></i></a>
+            <a target="_blank" href="https://github.com/alvesrafa/view-hub/blob/master/README.md">Ver Readme.md <i class="fab fa-github"></i></a>
           </div>
         </div>
       </div>
@@ -36,13 +35,11 @@ export default function Projetos() {
         </div>
         <div class="card-footer">
           <div class="links">
-            <a target="_blank" href="https://github.com/alvesrafa">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="" alt="Ver mais"><i class="fas fa-arrow-circle-right"></i></a>
+            <a target="_blank" href="https://github.com/alvesrafa/weather-now/blob/master/README.md">Ver Readme.md <i class="fab fa-github"></i></a>
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header">
           <h2>RastreiAqui</h2>
@@ -55,10 +52,7 @@ export default function Projetos() {
         </div>
         <div class="card-footer">
           <div class="links">
-            <a target="_blank" href="https://github.com/alvesrafa">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="" alt="Ver mais"><i class="fas fa-arrow-circle-right"></i></a>
+            <a target="_blank" href="https://github.com/alvesrafa/app-rastreiaqui/blob/master/README.md">Ver Readme.md <i class="fab fa-github"></i></a>
           </div>
         </div>
       </div>
@@ -75,17 +69,14 @@ export default function Projetos() {
         </div>
         <div class="card-footer">
           <div class="links">
-            <a target="_blank" href="https://github.com/alvesrafa">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="" alt="Ver mais"><i class="fas fa-arrow-circle-right"></i></a>
+            <a target="_blank" href="https://github.com/alvesrafa/be-the-hero/blob/master/README.md">Ver Readme.md <i class="fab fa-github"></i></a>
           </div>
         </div>
       </div>
       
       <div class="card">
         <div class="card-header">
-          <h2>Making Card</h2>
+          <h2>Making Card CSS</h2>
           <h4>ReactJS, Styled Components, HTML e CSS</h4>
         </div>
         <div class="card-body">
@@ -95,10 +86,7 @@ export default function Projetos() {
         </div>
         <div class="card-footer">
           <div class="links">
-            <a target="_blank" href="https://github.com/alvesrafa">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="" alt="Ver mais"><i class="fas fa-arrow-circle-right"></i></a>
+            <a target="_blank" href="https://github.com/alvesrafa/making-card/blob/master/README.md">Ver Readme.md <i class="fab fa-github"></i></a>
           </div>
         </div>
       </div>
@@ -114,10 +102,7 @@ export default function Projetos() {
         </div>
         <div class="card-footer">
           <div class="links">
-            <a target="_blank" href="https://github.com/alvesrafa">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="" alt="Ver mais"><i class="fas fa-arrow-circle-right"></i></a>
+            <a target="_blank" href="https://github.com/rodrigosborges/FreeERP/blob/assistencia_tecnica/README.md">Ver Readme.md <i class="fab fa-github"></i></a>
           </div>
         </div>
       </div>
@@ -133,10 +118,7 @@ export default function Projetos() {
         </div>
         <div class="card-footer">
           <div class="links">
-            <a target="_blank" href="https://github.com/alvesrafa">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="" alt="Ver mais"><i class="fas fa-arrow-circle-right"></i></a>
+            <a target="_blank" href="https://github.com/alvesrafa/dev-radar/blob/master/README.md">Ver Readme.md <i class="fab fa-github"></i></a>
           </div>
         </div>
       </div>

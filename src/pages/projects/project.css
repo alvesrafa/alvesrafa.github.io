@@ -1,0 +1,17 @@
+
+.container-fluid {
+  height: 100vh;
+}
+.container-fluid .card {
+  width: 50vw;
+}
+.container-fluid .card .card-header {
+  background-color: #FFF;
+  font-weight: bold;
+  justify-content: center;
+}
+.galeria p{
+  margin-top: 20px;
+  font-size: 15px;
+  color: #333
+}
