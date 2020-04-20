@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './media.css';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Skills from './pages/Skills';
