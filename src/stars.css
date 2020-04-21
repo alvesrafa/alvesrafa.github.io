@@ -1,0 +1,66 @@
+#stars {
+  
+  width: 2px;
+  height: 2px;
+  border-radius: 3px;
+  background: transparent;
+  /* Estralas -X, Y - X, Y */
+  box-shadow: -552px 50px white, 386px 60px white,
+  -599px 42px white, 568px 40px white,
+  -755px 101px white, 375px 70px white,
+  -179px 63px white, 853px 36px white,
+  -892px 10px white, 244px 740px white, 
+  -666px 130px white, 140px 150px white,
+  -120px 50px white, 137px 20px white,
+  -892px 100px white, 244px 120px white, 
+  -666px 150px white, 140px 170px white,
+  -249px 200px white, 722px 236px white,
+  -784px 250px white, 5px 286px white,
+  -400px 300px white, 349px 320px white,
+  -552px 350px white, 386px 360px white,
+  -599px 400px white, 568px 440px white,
+  -755px 450px #EEE, 375px 470px #EEE,
+  -179px 500px #EEE, 853px 550px #EEE,
+  -623px 550px #EEE, 652px 550px #EEE,
+  -821px 600px #EEE, 475px 670px #EEE,
+  -368px 650px #EEE, 289px 630px #EEE,
+  -525px 700px #EEE, 423px 760px #EEE,
+  -222px 750px #EEE, 423px 750px #EEE,
+  -755px 950px #EEE, 375px 970px #EEE,
+  -179px 910px #DDD, 853px 930px #DDD,
+  -623px 1050px #DDD, 652px 1150px #DDD,
+  -821px 1140px #DDD, 475px 1070px #DDD,
+  -368px 1170px #DDD, 289px 1040px #DDD,
+  -525px 1100px #DDD, 423px 1052px #DDD,
+  -222px 1136px #CCC, 423px 1083px #CCC,
+  -623px 1250px #CCC, 652px 1250px #CCC,
+  -821px 1340px #CCC, 475px 1270px #CCC,
+  -368px 1470px #CCC, 289px 1340px #CCC,
+  -525px 1400px #CCC, 423px 1352px #CCC,
+  -623px 1350px #CCC, 652px 1325px #CCC,
+  -120px 1257px #CCC, 137px 1220px #CCC,
+  -222px 1336px #CCC, 423px 1483px #CCC,
+  -122px 1336px #CCC, 423px 1500px #CCC,
+  -784px 1650px #CCC, 5px 1386px #CCC,
+  -400px 1542px #999, 349px 1420px #999,
+  -552px 1650px #999, 386px 1560px #999,
+  -599px 1700px #999, 568px 1640px #999,
+  -755px 1550px #999, 375px 1770px #999,
+  -179px 1636px #999, 853px 550px #999,
+  -623px 1450px #999, 652px 1550px #999,
+  -821px 1600px #999, 475px 1670px #999
+
+  
+  ;
+  animation: animStar 40s ease-in-out alternate infinite;
+  z-index: 0;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-1200px);
+  }
+}

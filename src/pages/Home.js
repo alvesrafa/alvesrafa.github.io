@@ -1,9 +1,10 @@
 import React from 'react';
-
+import '../stars.css';
 export default function Home() {
   return (
 
     <section id="home">
+      <div id="stars"></div>
       <div className="content-home">
 
         <div className="foto-perfil">

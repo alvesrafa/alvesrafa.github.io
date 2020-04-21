@@ -14,14 +14,17 @@ body {
 }
 /* HOME */
 #home {
-  background-color: #444;
+  z-index: 10;
+  background: linear-gradient(0deg, rgba(7,9,28,1) 19%, rgba(0,0,0,1) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  
 }
 #home .apresentacao h1, h2, h3, p, a, hr {
   margin: 0;
+  z-index: 10;
 }
 #home .apresentacao h1, h2, h3 {
   color: #DDD;
@@ -84,6 +87,7 @@ body {
 
 }
 .foto-perfil img{
+  z-index: 10;
   width: 132px;
   border-radius: 50%;
   margin-right: 17px;
@@ -217,4 +221,7 @@ section {
 #projects .card .card-footer .links a:hover {
   color: #111;
 }
+
+
+
 
