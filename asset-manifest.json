@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/alvesrafa.github.io/static/css/main.d09af9b3.chunk.css",
-    "main.js": "/alvesrafa.github.io/static/js/main.0a3f671f.chunk.js",
-    "main.js.map": "/alvesrafa.github.io/static/js/main.0a3f671f.chunk.js.map",
-    "runtime-main.js": "/alvesrafa.github.io/static/js/runtime-main.d79ff407.js",
-    "runtime-main.js.map": "/alvesrafa.github.io/static/js/runtime-main.d79ff407.js.map",
-    "static/js/2.2d4b289f.chunk.js": "/alvesrafa.github.io/static/js/2.2d4b289f.chunk.js",
-    "static/js/2.2d4b289f.chunk.js.map": "/alvesrafa.github.io/static/js/2.2d4b289f.chunk.js.map",
-    "index.html": "/alvesrafa.github.io/index.html",
-    "precache-manifest.67c0df68d75d4a497682f0a96defe8ff.js": "/alvesrafa.github.io/precache-manifest.67c0df68d75d4a497682f0a96defe8ff.js",
-    "service-worker.js": "/alvesrafa.github.io/service-worker.js",
-    "static/css/main.d09af9b3.chunk.css.map": "/alvesrafa.github.io/static/css/main.d09af9b3.chunk.css.map",
-    "static/js/2.2d4b289f.chunk.js.LICENSE.txt": "/alvesrafa.github.io/static/js/2.2d4b289f.chunk.js.LICENSE.txt"
+    "main.css": "/me/static/css/main.d09af9b3.chunk.css",
+    "main.js": "/me/static/js/main.0a3f671f.chunk.js",
+    "main.js.map": "/me/static/js/main.0a3f671f.chunk.js.map",
+    "runtime-main.js": "/me/static/js/runtime-main.a1828394.js",
+    "runtime-main.js.map": "/me/static/js/runtime-main.a1828394.js.map",
+    "static/js/2.2d4b289f.chunk.js": "/me/static/js/2.2d4b289f.chunk.js",
+    "static/js/2.2d4b289f.chunk.js.map": "/me/static/js/2.2d4b289f.chunk.js.map",
+    "index.html": "/me/index.html",
+    "precache-manifest.001979fdad6275ad96ef37f92feed9e5.js": "/me/precache-manifest.001979fdad6275ad96ef37f92feed9e5.js",
+    "service-worker.js": "/me/service-worker.js",
+    "static/css/main.d09af9b3.chunk.css.map": "/me/static/css/main.d09af9b3.chunk.css.map",
+    "static/js/2.2d4b289f.chunk.js.LICENSE.txt": "/me/static/js/2.2d4b289f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d79ff407.js",
+    "static/js/runtime-main.a1828394.js",
     "static/js/2.2d4b289f.chunk.js",
     "static/css/main.d09af9b3.chunk.css",
     "static/js/main.0a3f671f.chunk.js"
